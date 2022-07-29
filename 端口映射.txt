@@ -1,0 +1,14 @@
+创建映射：
+netsh interface portproxy add v4tov4 listenaddress=0.0.0.0
+listenport=3307
+connectaddress=172.20.10.4
+connectport=3306
+
+
+查看映射：
+netsh interface portproxy show v4tov4
+
+删除映射：
+netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0
+listenport=3307
+

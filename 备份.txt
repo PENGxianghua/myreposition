@@ -1,0 +1,6 @@
+#mysqldump –u root –p pxh t1  > t1.sql
+Enter password:root
+Mysql>
+show tables
+drop table t1
+source t1.sql
